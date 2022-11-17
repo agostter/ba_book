@@ -5,16 +5,15 @@
     padding: 0;
 }
 html{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
+    
 }   
 
 body {
     background: burlywood;
 }
-header{
-    background: cornflowerblue;
-}
+
 .header{
     background: rgb(238, 238, 240);
     color:rgb(12, 11, 11);
@@ -24,11 +23,16 @@ header{
     margin-right: auto;
     margin-bottom: 10px;
 }
+.margen{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 .logo{
     text-transform: uppercase;
 }
 .logo a{
-    text-decoration: none
+    text-decoration: none;
     color: black
 }
 
@@ -96,4 +100,18 @@ header{
 .dato{
     width:80%;
     height: 50px;
+}
+
+/*responsive*/
+@media screen and (min-width: 0px) and (max-width:700px){
+.header{
+    background: rgb(238, 238, 240);
+    color: rgb(12, 11, 11);
+    height: 80px;
+    margin-bottom: 10px;
+    }
+    body{
+    background: rgb(32, 230, 203);
+    }
+    
 }
